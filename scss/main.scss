@@ -27,6 +27,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 24px;
+    margin: 0;
     a {
       font-family: Montserrat;
       font-size: 14px;
@@ -70,20 +71,66 @@ nav {
   .navbar {
     display: flex;
     align-items: center;
-    // burger menui
   }
 }
 
-.foter_bloks {
+.foter_top {
+  margin: 0;
+  padding: 0;
+  line-height: 22.4px;
+  h4 {
+    margin: 0;
+  }
+  p {
+    margin-top: 7px;
+    max-width: 265px;
+    width: 100%;
+  }
+}
+
+.foter {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+.category {
+  margin: 0;
+  line-height: 22.4px;
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin: 0;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+.contact {
+  line-height: 22.4px;
+  margin: 0;
+
+  h5,
   h4 {
     margin: 0;
   }
   p {
     margin: 0;
-    max-width: 265px;
-    width: 100%;
   }
 }
-// burder menui
+.menui {
+  margin: 0;
+  line-height: 22.4px;
+  h4 {
+    margin: 0;
+  }
+}
+.ext_link {
+  color: red;
+}
 
-// @media (max-width: 880px);
+@media only screen and (max-width: 876px) {
+}

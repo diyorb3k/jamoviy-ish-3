@@ -29,6 +29,7 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin: 0;
 }
 nav ul a {
   font-family: Montserrat;
@@ -71,11 +72,62 @@ nav .navbar {
   align-items: center;
 }
 
-.foter_bloks h4 {
+.foter_top {
+  margin: 0;
+  padding: 0;
+  line-height: 22.4px;
+}
+.foter_top h4 {
   margin: 0;
 }
-.foter_bloks p {
-  margin: 0;
+.foter_top p {
+  margin-top: 7px;
   max-width: 265px;
   width: 100%;
+}
+
+.foter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  margin: 0;
+  line-height: 22.4px;
+}
+.category h4 {
+  margin: 0;
+  padding: 0;
+}
+.category li {
+  margin: 0;
+}
+.category p {
+  padding: 0;
+  margin: 0;
+}
+
+.contact {
+  line-height: 22.4px;
+  margin: 0;
+}
+.contact h5,
+.contact h4 {
+  margin: 0;
+}
+.contact p {
+  margin: 0;
+}
+
+.menui {
+  margin: 0;
+  line-height: 22.4px;
+}
+.menui h4 {
+  margin: 0;
+}
+
+.ext_link {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
